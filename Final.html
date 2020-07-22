@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<title>FinalForm</title>
+		<link rel="stylesheet" type="text/css" href="css/Style2.css">
+		<script type="text/javascript"src="javascript/JavaScript.js"></script>
+	</head>
+	<body>
+	<div id="container">
+		<h1 id="cf">Contact Form</h1>
+		<img src="https://c4.wallpaperflare.com/wallpaper/900/604/6/assassin-s-creed-animus-wallpaper-preview.jpg">
+		<div id="content">
+			<h2 id="info">This From collects basic details about Users.</h2>
+		</div>
+		<div class="form">
+				<fieldset>
+					<legend>Personalia:</legend>
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" placeholder="Your first name.." >
+						
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" placeholder="Your last name.." >
+						
+						<label for="country">Country</label>
+						<select id="country">
+							<option value="australia">Australia</option>
+							<option value="USA">USA</option>
+							<option value="India" selected>India</option>
+							<option value="England">England</option>
+						</select>
+						
+						<label for="phone">Phone No</label>
+						<input type="tel" id="phone" placeholder="Your Telephone/Mobile No." >
+						
+						<label for="age">Age</label>
+						<input type="number" id = "age" placeholder="Your age.." >
+						
+						<label for="gender">Gender</label><br>
+							<input type="radio" name="gender" id="male">
+							<label id="male">Male</label><br>
+							<input type="radio" name="gender" id="female">
+							<label id="female">Female</label><br>
+							<input type="radio" name="gender" id="others">
+							<label id="others">Others</label><br>
+						
+						<label id="txt">About Your Self</label>
+						<textarea id="txt" placeholder="Tell us about your self"></textarea>
+					
+					<button id="sub" onclick="checkFill()">Send</button>
+				</fieldset>
+		</div>
+	</div>
+	</body>
+</html>
